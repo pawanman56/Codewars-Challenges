@@ -15,5 +15,5 @@ def calculate_tip(amount, rating)
       return "Rating not recognised"
   end
   
-  tip = (amount * rating_per).round
+  tip = (amount * rating_per).ceil
 end
